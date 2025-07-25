@@ -1,0 +1,64 @@
+body {
+  margin: auto;
+  font-family: cursive;
+}
+header .logo img {
+  width: 160px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  margin-bottom: 0;
+}
+i {
+  font-family: monospace;
+}
+.filter {
+  margin: 16px 0;
+}
+.filter input {
+  width: 42px;
+  color: green;
+  font-weight: bold;
+  border: 1px solid green;
+  padding: 3px;
+  border-radius: 4px;
+  text-align: center;
+}
+.filter button {
+  border: none;
+  background-color: #347419;
+  color: #eee;
+  padding: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.filter button:active {
+  color: red;
+}
+.result {
+  height: 170px;
+}
+.list-products {
+  margin: 0 0 3rem 0;
+}
+.list-products table {
+  text-align: center;
+}
+
+.list-products table .product-name {
+  text-align: left;
+}
+.list-products table .product-price {
+  text-align: right;
+  padding-right: 0.2rem;
+}
+.list-socials a {
+  text-decoration: none;
+}
+footer {
+  margin: 1rem;
+}
